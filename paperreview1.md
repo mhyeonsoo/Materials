@@ -43,7 +43,9 @@ Loss_{total} = Loss_{walker} + Loss_{visit} + Loss_{classification}
 ### Result
 
 실험용 Dataset으로 연구팀은 MNIST와 STL-10, SVHN 데이터셋을 적용하였습니다. 그 결과로 Label이 매우 적을 때, 다른 state-of-art를 큰 차이로 능가하는 성능을 보였고, 현재 사용되는 Resnet과 같은 깊고 복잡한 망 구조를 이용한 것도 아닌데 높은 accuracy를 뽑아낼 수 있었습니다.
-<img src="https://3.bp.blogspot.com/-rg_FZZ_vnK4/WVhuVNoYNCI/AAAAAAAAB5Q/jXcUP3kAPbscVhOBNX2u0XdHb-fnQhcBgCK4BGAYYCw/s1600/lba_8.png" width="500" height="300" />
+
+
+<img src="https://4.bp.blogspot.com/-QpZtMXTB1Ig/WViTGv_jFyI/AAAAAAAAB60/evqV5B5de-Iyb0vpmvQQj2kCJ7AsfdLGQCK4BGAYYCw/s1600/lba_8.png" width="500" height="300" />
 
 ---
 
