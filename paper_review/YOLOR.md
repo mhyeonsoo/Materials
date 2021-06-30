@@ -58,6 +58,8 @@ The autors focused on,
   - ex) FPN, knowledge distillation, handling zero-shot domain transfer
 
 ### More functions
+![image](https://user-images.githubusercontent.com/32179857/123901089-50997e80-d9a5-11eb-9bfe-b58c4c961e15.png)
+
 1. Offset refinement
   - to make networks to predict the offset of center coordinate
 2. Anchor refinement
