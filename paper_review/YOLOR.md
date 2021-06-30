@@ -21,17 +21,37 @@
       ![image](https://user-images.githubusercontent.com/32179857/123898525-71130a00-d9a0-11eb-8096-bc6f862c3242.png)
 
 ## Related work
-#### Explicit Deep learning
+### Explicit Deep learning
 ex) Transofrmer, Self-attention, Non-local networks
 - In here, the authors adapted Transformer
-#### Implicit Deep learning
+### Implicit Deep learning
 - Implicit neural representations
   - to obtain the parameterized continuous mapping representation of discrete inputs to perform different tasks
 - Deep equilibrium models
   - to transform implicit learning into a residual form neural networks.
-#### Knowledge modeling
-
+### Knowledge modeling
+- Sparse representation
+  - uses exemplar, predifined over complete, or learning dictionary to perform modeling
+- Memory networks
+  - relies on combining various forms of embedding to form memory
 ## How implicit knowledge works?
+```
+The main purpose of this is to conduct a unified network that can effectively train implicit knowledge
+The autors focused on,
+  1. how to train implicit knowledge and inference it quickly
+  2. introduce how implicit knowledge as constant tensor can be applied to various tasks
+```
+### Manifold space reduction
+![image](https://user-images.githubusercontent.com/32179857/123899230-bdab1500-d9a1-11eb-98a4-4b08553f75fd.png)
+
+- if the target categories can be successfully classified by the hyper-plane in the projection space,
+  that will be the best outcome
+- we can take inner product of the projection vector and implicit representation to achieve the goal 
+  of reducing the dimensionality of manifold space and effectively achieving various tasks.
+
+
+
+
 
 
 ## Implicit knowledge in our unified networks
