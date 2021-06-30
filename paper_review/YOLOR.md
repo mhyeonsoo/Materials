@@ -49,7 +49,21 @@ The autors focused on,
 - we can take inner product of the projection vector and implicit representation to achieve the goal 
   of reducing the dimensionality of manifold space and effectively achieving various tasks.
 
+### Kernel space alignment
+![image](https://user-images.githubusercontent.com/32179857/123899561-648fb100-d9a2-11eb-86d1-813186f70f58.png)
 
+- Fig4.(a) illustrates an example of kernel space misalignment in multi-task and multi-head NN.
+- To deal with this problem, the authors suggest to perform **addition and multiplication of output feature and implicit representation**
+  - this enables kernel space to be translated, rotated, and scaled to align each output kernel space. (Fig4. (b))
+  - ex) FPN, knowledge distillation, handling zero-shot domain transfer
+
+### More functions
+**1. Offset refinement**
+  - to make networks to predict the offset of center coordinate
+**2. Anchor refinement**
+  - to introduce multiplication to automatically search the hyper-parameter set of an anchor (needed for anchor-based OD)
+**3. Feature selection**
+  - dot-multiplication and concatenation can be used, respectively, to perform multi-task feature selection and to pre-conditions for subsequent calculations
 
 
 
