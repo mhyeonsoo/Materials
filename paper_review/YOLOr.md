@@ -71,3 +71,19 @@ The autors focused on,
 
 
 ## Implicit knowledge in our unified networks
+### Formulation of implicit knowledge
+- for the object function of conventinal network training, the authors use the formula below.
+   ![image](https://user-images.githubusercontent.com/32179857/123909061-7037a380-d9b3-11eb-9188-5e3d106df3c7.png)
+   where x is observation, θ is the set of parameters of neural net, fθ represents operation of neural net, ϵ as error, and y is the ground-truth
+   
+- the authors model the error term ϵ to find solutions for different tasks as Fig.6(c)
+  ![image](https://user-images.githubusercontent.com/32179857/123909559-2ef3c380-d9b4-11eb-971d-ca11d51f929a.png)
+
+#### Unified networks
+- for overall unified networks, the authors propose the error below.
+  ![image](https://user-images.githubusercontent.com/32179857/123909881-a295d080-d9b4-11eb-9ec3-6ea61d2047f6.png)
+  where **g** is a task specifi operation that serves to combine or select information from explicit knowledge and implicit knowledge.
+  
+- Also, there exists some methods to integrate explicit and implicit knowledge into fθ like,
+  ![image](https://user-images.githubusercontent.com/32179857/123910067-e4bf1200-d9b4-11eb-945a-515e35b1939f.png)
+  where * represents some possible operations that can combine f and g.
